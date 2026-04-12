@@ -121,3 +121,12 @@ nav a:hover {
     overflow: hidden;
     box-shadow: 0 0 20px rgba(59,130,246,0.5);
 }
+.classement-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classement-card h2 {
+    margin-bottom: 15px;
+}
