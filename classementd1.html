@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Classement</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🏆 Classement</h1>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="classement.html">Classement</a>
+  </nav>
+</header>
+
+<section class="classement">
+  <h2>Top joueurs</h2>
+
+  <table id="ranking">
+    <tr>
+      <th>Joueur</th>
+      <th>Score</th>
+    </tr>
+
+    <tr><td>Player1</td><td>120</td></tr>
+    <tr><td>Player2</td><td>300</td></tr>
+    <tr><td>Player3</td><td>200</td></tr>
+    <tr><td>Player4</td><td>50</td></tr>
+
+  </table>
+</section>
+
+<script>
+const table = document.getElementById("ranking");
+let rows = Array.from(table.rows).slice(1);
+
+rows.sort((a, b) => {
+  return b.cells[1].innerText - a.cells[1].innerText;
+});
+
+rows.forEach(row => table.appendChild(row));
+</script>
+
+</body>
+</html>
