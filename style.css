@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .classementd1-page tr:nth-child(2) td:first-child::before {
-  content: "🥇 ";
+  content: "";
 }
 .classement-container {
     display: flex;
