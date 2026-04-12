@@ -71,4 +71,37 @@ nav a:hover {
 .card:hover {
   transform: scale(1.05);
   background: #334155;
+.classementd1-page .classement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+  .classementd1-page table {
+  border-collapse: collapse;
+  width: 400px;
+  background: #020617;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(59,130,246,0.5);
+}
+
+.classementd1-page th {
+  background: #1e293b;
+  padding: 15px;
+  color: #facc15;
+}
+
+.classementd1-page td {
+  padding: 12px;
+  text-align: center;
+}
+
+.classementd1-page tr:hover {
+  background: #1e40af;
+}
+
+.classementd1-page tr:nth-child(2) td:first-child::before {
+  content: "🥇 ";
 }
