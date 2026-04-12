@@ -79,7 +79,7 @@ nav a:hover {
   padding: 50px;
 }
 
-  .classementd1-page table {
+  .classementd1-page .ranking {
   border-collapse: collapse;
   width: 400px;
   background: #020617;
@@ -105,4 +105,19 @@ nav a:hover {
 
 .classementd1-page tr:nth-child(2) td:first-child::before {
   content: "🥇 ";
+}
+.classement-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* espace entre tableaux */
+    flex-wrap: wrap;
+}
+
+.classementd1-page .ranking {
+    border-collapse: collapse;
+    width: 300px;
+    background: #020617;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(59,130,246,0.5);
 }
