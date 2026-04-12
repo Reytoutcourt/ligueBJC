@@ -71,6 +71,7 @@ nav a:hover {
 .card:hover {
   transform: scale(1.05);
   background: #334155;
+}
 .classementd1-page .classement {
   display: flex;
   flex-direction: column;
