@@ -135,7 +135,7 @@ nav a:hover {
     left: 20px;        /* distance du bord gauche */
     top: 70%;          /* milieu vertical */
     transform: translateY(-50%);
-    width: 100px;      /* taille image */
+    width: 95px;      /* taille image */
     border-radius: 50%;    /* rend l'image ronde */
     object-fit: cover;     /* évite l'image écrasée */
 }
@@ -144,7 +144,7 @@ nav a:hover {
     left: 20px;        /* distance du bord gauche */
     top: 85%;          /* milieu vertical */
     transform: translateY(-50%);
-    width: 100px;      /* taille image */
+    width: 95px;      /* taille image */
     border-radius: 50%;    /* rend l'image ronde */
     object-fit: cover;     /* évite l'image écrasée */
 }
