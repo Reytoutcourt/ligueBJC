@@ -130,7 +130,7 @@ nav a:hover {
 .classement-card h2 {
     margin-bottom: 15px;
 }
-.image-gauche {
+.avatar {
     position: absolute;
     left: 20px;        /* distance du bord gauche */
     top: 70%;          /* milieu vertical */
@@ -139,7 +139,7 @@ nav a:hover {
     border-radius: 50%;    /* rend l'image ronde */
     object-fit: cover;     /* évite l'image écrasée */
 }
-.image-gauche-bas {
+.avatar2 {
     position: absolute;
     left: 20px;        /* distance du bord gauche */
     top: 85%;          /* milieu vertical */
