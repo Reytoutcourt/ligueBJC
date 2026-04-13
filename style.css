@@ -136,6 +136,8 @@ nav a:hover {
     top: 70%;          /* milieu vertical */
     transform: translateY(-50%);
     width: 100px;      /* taille image */
+    border-radius: 50%;    /* rend l'image ronde */
+    object-fit: cover;     /* évite l'image écrasée */
 }
 .image-gauche-bas {
     position: absolute;
@@ -143,4 +145,6 @@ nav a:hover {
     top: 85%;          /* milieu vertical */
     transform: translateY(-50%);
     width: 100px;      /* taille image */
+    border-radius: 50%;    /* rend l'image ronde */
+    object-fit: cover;     /* évite l'image écrasée */
 }
