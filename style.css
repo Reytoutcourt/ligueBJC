@@ -140,7 +140,7 @@ nav a:hover {
 .image-gauche-bas {
     position: absolute;
     left: 20px;        /* distance du bord gauche */
-    top: 95%;          /* milieu vertical */
+    top: 85%;          /* milieu vertical */
     transform: translateY(-50%);
     width: 100px;      /* taille image */
 }
