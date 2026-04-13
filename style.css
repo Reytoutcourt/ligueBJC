@@ -162,3 +162,6 @@ nav a:hover {
 .link {
     color: #facc15;
 }
+.section {
+  margin-top: -50px;
+}
