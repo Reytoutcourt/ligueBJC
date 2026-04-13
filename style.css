@@ -131,9 +131,9 @@ nav a:hover {
     margin-bottom: 15px;
 }
 .image-gauche {
-    position: fixed;
+    position: absolute;
     left: 20px;        /* distance du bord gauche */
-    top: 50%;          /* milieu vertical */
+    top: 70%;          /* milieu vertical */
     transform: translateY(-50%);
-    width: 150px;      /* taille image */
+    width: 100px;      /* taille image */
 }
