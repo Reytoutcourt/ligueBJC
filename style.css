@@ -148,3 +148,8 @@ nav a:hover {
     border-radius: 50%;    /* rend l'image ronde */
     object-fit: cover;     /* évite l'image écrasée */
 }
+.profil {
+    display: flex;
+    align-items: center; /* centre verticalement */
+    gap: 15px;           /* espace image / texte */
+}
