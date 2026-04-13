@@ -151,5 +151,5 @@ nav a:hover {
 .profil {
     display: flex;
     align-items: center; /* centre verticalement */
-    gap: 15px;           /* espace image / texte */
+    gap: 50px;           /* espace image / texte */
 }
