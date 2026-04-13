@@ -130,3 +130,10 @@ nav a:hover {
 .classement-card h2 {
     margin-bottom: 15px;
 }
+.image-gauche {
+    position: fixed;
+    left: 20px;        /* distance du bord gauche */
+    top: 50%;          /* milieu vertical */
+    transform: translateY(-50%);
+    width: 150px;      /* taille image */
+}
